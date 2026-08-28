@@ -1,6 +1,10 @@
-# three-sentence-virus
+# Three Sentence Virus Skill
 
-> **三句话病毒** —— 三句话，让读者停不下来。
+> **三句话病毒 Skill** —— 给 AI Agent 安装的中文传播叙事技能：三句话，让读者停不下来。
+
+[![Agent Skill](https://img.shields.io/badge/Agent-Skill-111827)](./three-sentence-virus/SKILL.md)
+[![Version](https://img.shields.io/badge/version-1.0.0-2563EB)](./three-sentence-virus/VERSION)
+[![License: MIT](https://img.shields.io/badge/License-MIT-16A34A.svg)](./LICENSE)
 
 一颗螺丝，0.03 克。
 
@@ -10,11 +14,23 @@
 
 ---
 
-这不是写作课。这是一台**传播心理引擎**。
+这不是写作课，也不是一段复制粘贴的 Prompt。这是一个可以安装到 AI Agent 中、按需自动触发的 **Skill**。
 
-`three-sentence-virus` 把 12 个社会心理学触发器编码成中文叙事规则：反差锚定、好奇缺口、情绪唤起、蔡格尼克留白、模因句式……输入任何素材，输出一篇让人读完、记住、想转发的长文。
+`three-sentence-virus` 通过 `SKILL.md + references/` 封装完整工作流：先判断素材事实层级，再选择心理触发器，最后生成标题、正文、可截屏金句和机制说明。它把 12 个社会心理学触发器编码成中文叙事规则：反差锚定、好奇缺口、情绪唤起、蔡格尼克留白、模因句式……输入任何素材，输出一篇让人读完、记住、想转发的长文。
 
-它不教你"写得好"。它教你**让读者的大脑停不下来**。
+它不是让模型临时“模仿一种文风”，而是为 Agent 增加一项可复用、可检查、可扩展的中文叙事能力。
+
+## 这是一个什么 Skill
+
+安装后，Agent 会在用户提出以下需求时按描述自动匹配或被显式调用：
+
+- 把普通素材改成有反差、有留白的中文叙事
+- 生成吸睛但不虚构事实的热点长文
+- 消除 AI 腔、感悟体和过度煽情
+- 提取可截屏传播的短句与标题
+- 分析一篇文章使用了哪些传播心理机制
+
+Skill 的执行结果不是固定模板，而是根据素材从 12 个触发器中选择合适组合；通常使用 5–8 个，不为展示技巧而硬凑。
 
 ## 先看一段
 
