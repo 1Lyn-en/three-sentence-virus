@@ -6,6 +6,16 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-2563EB)](./three-sentence-virus/VERSION)
 [![License: MIT](https://img.shields.io/badge/License-MIT-16A34A.svg)](./LICENSE)
 
+![Three Sentence Virus Skill cover](./assets/three-sentence-virus-cover.jpg)
+
+> **项目描述（可粘贴到 GitHub About → Description）**
+>
+> A Chinese AI Agent writing Skill powered by 12 social-psychology triggers — turn raw material into restrained, memorable and shareable narratives.
+
+> **推荐 Topics（逐个添加）**
+>
+> `agent-skill` `ai-writing` `chinese-writing` `creative-writing` `prompt-engineering` `social-psychology` `storytelling` `content-creation`
+
 一颗螺丝，0.03 克。
 
 一栋楼，三万吨。
